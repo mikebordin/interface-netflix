@@ -1,0 +1,133 @@
+:root {
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--preta);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+
+header .logo{
+    color: var(--vermelho);
+    font-size: 40px;
+    font-family: bebas-neue, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header .logo:hover{
+    font-size: 45px;
+
+}
+
+header nav a{
+    text-decoration: none;
+    color: antiquewhite;
+    margin-right: 30px;
+}
+
+header nav a:hover{
+    color: azure;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filme-principal{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)100%), url(/interface-netflix-main/resource/fundo.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    margin-top: 10px;
+    width: 75%;
+}
+
+.filme-principal  .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    margin: 5px;
+    padding: 15px 30px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+    transition: .3s ease all;
+}
+
+.botao i{
+    margin: 5px;
+}
+
+
+
+.container{
+    margin-left: 70px;
+}
+
+.filme-principal .container{
+    width: 50%;
+}
+
+.box-filmes{
+    margin: 15px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 1px solid var(--preta);
+}
+
+
+.titulocarrosel{
+    margin-left: 15px;
+    margin-top: 20px;
+    text-align: start;
+}
+
+
+
+
+.box-filmes:hover{
+    border: 5px solid;
+    transition: 0.3s ease all;
+}
+
+.op-cabecalho:hover{   
+    color: rgb(99, 90, 90);
+}
+
+.carrosel{
+    margin: 0 50px ;
+}

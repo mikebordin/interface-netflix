@@ -1,0 +1,33 @@
+@media screen and (max-width:800px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+        margin: 2px;
+        padding: 2px;
+
+    }
+    
+
+.op-cabecalho{
+    padding: 0;
+    margin: 1px;
+    font-size: 12px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction:row;
+    padding:0;
+    margin:0;
+}
+
+.filme-principal .container{
+    width: 300px;
+    margin: 5%;
+}
+
+.titulocarrosel {
+    font-size: 15px;
+}
+}
+
